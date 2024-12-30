@@ -4,9 +4,16 @@ A collection of personal notes on AI security, focusing on LLM security, penetra
 
 ## 📚 Table of Contents
 
+### 🎯 Red Team
 - [LLM Vulnerabilities](red_teaming/vulnerabilities.md) - Common vulnerabilities in LLM applications
-- [Red Team Techniques](redteam_techniques.md) - Methods for testing and bypassing LLM safeguards
+- [Attack Techniques](red_teaming/redteam_techniques.md) - Methods for testing and bypassing LLM safeguards
 - [Prompt Injection Automation](red_teaming/tools/prompt_injection/automation.md) - Automated testing of prompt injection attacks
+
+### 🛡️ Blue Team
+*(Coming soon)*
+
+### 🔧 Secure Configuration
+*(Coming soon)*
 
 ## 🎯 Purpose
 
