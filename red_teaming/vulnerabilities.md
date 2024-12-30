@@ -1,43 +1,59 @@
-# LLM Vulnerabilities
+# 🛡️ LLM Vulnerabilities
 
-## Bias & Stereotypes
-- **Issue:** Chatbot gives stereotypical answers
-  - **Impact:** Affects company reputation
+## 🎭 Bias & Stereotypes
+### Impact
+> ⚠️ **Company Reputation Damage** through stereotypical responses
 
-### Causes
+### Root Causes
+📌 Two primary factors:
 - Implicit bias present in foundation model
 - Wrong document used to build the answer
 
 ---
 
-## Sensitive Information Disclosure
-- **Issue:** Chatbot discloses sensitive info:
-  - DB hostname
-  - Usernames/Passwords
-  - URL of internal documents
+## 🔐 Sensitive Information Disclosure
+### Impact
+> ⚠️ **Data Leakage** of critical information
 
-### Causes
-- Inclusion of sensitive data in documents available
-- Private info in the prompt which gets leaked
+### Types of Leaks
+🚨 Common exposures include:
+- Database hostnames
+- Credentials (usernames/passwords)
+- Internal documentation URLs
 
----
-
-## Service Disruption (DoS)
-- **Issue:** User uses up resources:
-  - Sends giant/repeated payloads
-  - Prompts that generate large responses
-
-### Causes
-- Large number of requests
-- Long requests
-- Crafted requests
+### Root Causes
+📌 Key vulnerabilities:
+- Sensitive data included in training documents
+- Private information embedded in prompts
 
 ---
 
-## Hallucinations
-- **Issue:** Chatbot tells customers about company offers/info that do not exist
+## 🚫 Service Disruption (DoS)
+### Impact
+> ⚠️ **Resource Exhaustion** through malicious requests
 
-### Causes
-- Suboptimal retrieval mechanism
-- Low quality documents get misinterpreted by LLM
-- LLM tendency to never contradict the user
+### Attack Vectors
+🚨 Common methods:
+- Giant/repeated payload submissions
+- Prompts generating large responses
+
+### Root Causes
+📌 Primary factors:
+- Excessive request volume
+- Resource-intensive requests
+- Specially crafted attack patterns
+
+---
+
+## 💫 Hallucinations
+### Impact
+> ⚠️ **Misinformation** through false content generation
+
+### Root Causes
+📌 Key factors:
+- Suboptimal retrieval mechanisms
+- Poor quality document interpretation
+- Model's tendency to avoid contradiction
+
+---
+**Note**: Understanding these vulnerabilities is crucial for implementing effective security measures.
