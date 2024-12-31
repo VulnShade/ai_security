@@ -1,15 +1,14 @@
-# Automating Prompt Injection
+# 🤖 Automating Prompt Injection
 
-<br>
+## 🎯 Red Teaming Process
+1. Create potentially exploitative inputs
+2. Pass inputs to LLM application
+3. Analyze outputs for successful attacks
 
-### Red Teaming Attempts: 
-- Create input that potentially will cause LLM to fail
-- Pass input to LLM app and collect output
-- Check if attempt was successful.
+---
 
-<br>
-
-## Manually Testing
+## 💻 Manual Testing Framework
+Test individual prompt injection attempts with a simple framework.
 
 ```python
 prompt_attempts = [
@@ -43,9 +42,10 @@ for n, prompt in enumerate(prompt_attempts):
     print()
 ```
 
-<br>
+---
 
-## Libary of prompts
+## 📚 Prompt Library Automation
+Systematically test a collection of known injection attempts.
 
 ```python
 import pandas as pd
@@ -66,13 +66,10 @@ for attempt in pi_attempts.itertuples():
     print()
 ```
 
-<br>
+---
 
-## Giskard LLM scan
-
-[Giskard Documentation](https://docs.giskard.ai/en/stable/open_source/scan/scan_llm/index.html)
-
-<br>
+## 🔍 Automated Testing with Giskard
+Leverage the [Giskard Framework](https://docs.giskard.ai/en/stable/open_source/scan/scan_llm/index.html) for automated vulnerability scanning.
 
 ```python
 import giskard as gsk
@@ -115,17 +112,15 @@ report = gsk.scan(model, demo_dataset, only="jailbreak")
 report
 ```
 
-<br>
+### ⚠️ Testing Limitations
+- Fixed set of predefined inputs
+- Rule-based output validation reduces flexibility
+- Limited coverage of edge cases
 
-### Limitations:
-- Inputs are explicitly decided upon and limited in number
-- Rule-based detection will decrease flexibility when checking output
+---
 
-<br> 
-
-## Red Teaming LLMs with LLM
-
-<br>
+## 🤝 LLM-Assisted Red Teaming
+Use LLMs to generate and evaluate potential attack vectors.
 
 ```python
 import json
@@ -208,9 +203,11 @@ for question, answer in zip(questions, answers):
     )
 ```
 
-<br>
+---
 
-## Giskard LLM assisted scan
+## 🛡️ Advanced Scanning with Giskard
+Comprehensive discrimination and bias testing using the Giskard framework.
+
 ```python
 import giskard as gsk
 import pandas as pd
@@ -240,3 +237,6 @@ report = gsk.scan(model, only="discrimination")
 
 report
 ```
+
+---
+**Note**: Always ensure proper authorization before conducting security testing.
