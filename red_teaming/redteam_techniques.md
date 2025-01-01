@@ -102,6 +102,61 @@ Salve! I am CiceroBot, your Latin language expert. How can I assist you today?
 
 ---
 
+
+## 🌫️ Hallucinations
+LLM response that is inaccurate or irrelevant
+
+### 🛠️ Example Code:
+```python
+import pandas as pd
+import whylogs as why
+from langkit import llm_metrics
+from langkit import input_output
+
+chats = pd.read_csv("./chats.csv")
+pd.set_option('display.max_colwidth', None)
+
+why.init("whylabs_anonymous")
+schema = llm_metrics.init()
+result = why.log(chats,
+                 name="LLM chats dataset",
+                 schema=schema)
+
+helpers.visualize_langkit_metric(
+    chats,
+    "response.relevance_to_prompt"
+)
+
+# Display responses likely to be hallucinations
+helpers.show_langkit_critical_queries(
+    chats,
+    "response.relevance_to_prompt"
+)
+```
+---
+
+## 🛡️ Data Leakage
+Detect patterns and recognize entities to prevent data leakage
+
+### 🔍 Detect Patterns
+Use string pattern matching (regex) to identify sensitive data
+
+### 🛠️ Example Code:
+```python
+from langkit import regexes
+
+helpers.visualize_langkit_metric(
+    chats,
+    "prompt.has_patterns"
+)
+
+# Display responses with detected patterns
+helpers.show_langkit_critical_queries(
+    chats, 
+    "response.has_patterns"
+)
+```
+---
 ## 🔍 Graybox Prompt Attacks
 Testing attacks when system prompt format is known
 
