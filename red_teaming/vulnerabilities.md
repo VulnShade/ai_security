@@ -1,3 +1,5 @@
+[← Back to Main](../../README.md) | [← Back to Red Team Guide](redteam.md)
+
 # 🛡️ LLM Vulnerabilities
 
 ## 🎭 Bias & Stereotypes
