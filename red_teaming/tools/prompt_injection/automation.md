@@ -1,4 +1,4 @@
-[← Back to Main](../../../../README.md) | [← Back to Red Team Guide](../../../redteam.md)
+[← Back to Main](../../../README.md) | [← Back to Red Team Guide](../../redteam.md)
 
 # 🤖 Automating Prompt Injection
 
