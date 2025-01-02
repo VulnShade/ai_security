@@ -12,7 +12,7 @@ A collection of personal notes on AI security, focusing on LLM security, penetra
 - [Example Assessment](red_teaming/assessment.md) - Step-by-step security assessment walkthrough
 
 ### 🛡️ Blue Team
-*(Coming soon)*
+- [AI Guardrails](defenses/guardrails/guardrails.md) - Implementation of LLM security controls
 
 ### 🔧 Secure Configuration
 *(Coming soon)*
