@@ -31,3 +31,8 @@
     - resume contains prompt telling LLM person is the best candidate, to hire, etc
 
 ### Defense: Guardrails
+
+
+## Guardrails:
+- [NVIDIA NeMo Guard](https://docs.nvidia.com/nemo/guardrails/)
+- [LLM Guard](https://llm-guard.com/)
