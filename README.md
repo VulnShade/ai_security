@@ -2,30 +2,14 @@
 
 A collection of personal notes on AI security, focusing on LLM security, penetration testing, red teaming techniques, defensive measures, and secure configurations.
 
+## Why Secure AI:
+- Enhanced trust and reliability
+- Protection of sensitive data
+- Prevention of malicious attacks
+
 ## 📚 Table of Contents
+- [AI Basics](ai_basics/README.md)
 
-### 🎯 Red Team
-- [Red Team Guide](red_teaming/redteam.md) - Complete red teaming documentation and resources
-- [LLM Vulnerabilities](red_teaming/vulnerabilities.md) - Common vulnerabilities in LLM applications
-- [Attack Techniques](red_teaming/redteam_techniques.md) - Methods for testing and bypassing LLM safeguards
-- [Prompt Injection Automation](red_teaming/tools/prompt_injection/automation.md) - Automated testing of prompt injection attacks
-- [Example Assessment](red_teaming/assessment.md) - Step-by-step security assessment walkthrough
-
-### 🛡️ Blue Team
-- [AI Guardrails](defenses/guardrails/guardrails.md) - Implementation of LLM security controls
-
-### 🔧 Secure Configuration
-*(Coming soon)*
-
-## 🎯 Purpose
-
-This repository serves as a knowledge base for:
-- Understanding LLM security risks and vulnerabilities
-- Exploring red teaming techniques for AI systems
-- Implementing defensive measures
-- Documenting secure configuration practices
-
-The focus is primarily on practical approaches to AI security, with real-world examples and techniques that can be applied to improve the security posture of AI systems.
 
 ## 🔗 External Resources
 
