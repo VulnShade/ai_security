@@ -2,19 +2,24 @@
 
 ## 📋 Table of Contents
 - [Types of AI](#-types)
-  - [Natural Language Processing (NLP)](#-nlp)
+  - [Natural Language Processing](#-nlp)
   - [Computer Vision](#️-computer-vision)
 - [Data Quality](#-data-quality)
 - [RAG](#-rag-retrieval-augmented-generation)
 - [Deep Learning](#-deep-learning)
   - [Neural Networks](#-neural-networks)
   - [CNNs](#️-convolutional-neural-networks-cnn)
-- [LLMs](llms/README.md)
+- [Use Cases](#use-cases)
+- [Algorithms](#algorithms)
+- [Large Language Models](llms/README.md)
 - [Practical Implementations](#-practical-implementations)
-    - - [Simple Chatbot Implementation Guide](chatbot/README.md)
+  - [Simple Chatbot Implementation Guide](chatbot/README.md)
+
+---
 
 ## 📊 Types:
 <img src="images/ai_types.png" width=750>
+
 ---
 
 ### 🔤 NLP
@@ -38,8 +43,6 @@
 <img src="images/RAG.png" width=500>
 
 • Enhances LLMs with external knowledge retrieval
-
-<br>
 
 ---
 
@@ -70,7 +73,10 @@
 
 <img src="images/algorithms.png" width=750>
 
+---
+
 ## 💻 Practical Implementations
 
 ### LLM Chatbot
 - [Simple Chatbot Implementation Guide](chatbot/README.md)
+- Demonstrates basic LLM interaction patterns
