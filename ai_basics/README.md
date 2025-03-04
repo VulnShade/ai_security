@@ -1,5 +1,17 @@
 # 🤖 AI Basics
 
+## 📋 Table of Contents
+- [Types of AI](#-types)
+  - [Natural Language Processing (NLP)](#-nlp)
+  - [Computer Vision](#️-computer-vision)
+- [Data Quality](#-data-quality)
+- [RAG](#-rag-retrieval-augmented-generation)
+- [Deep Learning](#-deep-learning)
+  - [Neural Networks](#-neural-networks)
+  - [CNNs](#️-convolutional-neural-networks-cnn)
+- [Practical Implementations](#-practical-implementations)
+    - - [Simple Chatbot Implementation Guide](chatbot/README.md)
+
 ## 📊 Types:
 <img src="images/ai_types.png" width=750>
 
@@ -45,3 +57,10 @@
   • 🔍 **Convolutional layers:** Extract features
   • 📉 **Pooling layers:** Reduce dimensions
   • 🔗 **Fully connected layers:** Generate predictions
+
+---
+
+## 💻 Practical Implementations
+
+### LLM Chatbot
+- [Simple Chatbot Implementation Guide](chatbot/README.md)
