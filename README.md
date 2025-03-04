@@ -9,6 +9,7 @@ A collection of personal notes on AI security, focusing on LLM security, penetra
 
 ## 📚 Table of Contents
 - [AI Basics](ai_basics/README.md)
+- [Attacking LLMs](attacking_llms/README.md)
 
 
 ## 🔗 External Resources
