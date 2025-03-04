@@ -9,12 +9,12 @@
 - [Deep Learning](#-deep-learning)
   - [Neural Networks](#-neural-networks)
   - [CNNs](#️-convolutional-neural-networks-cnn)
+- [LLMs](llms/README.md)
 - [Practical Implementations](#-practical-implementations)
     - - [Simple Chatbot Implementation Guide](chatbot/README.md)
 
 ## 📊 Types:
 <img src="images/ai_types.png" width=750>
-
 ---
 
 ### 🔤 NLP
@@ -59,6 +59,16 @@
   • 🔗 **Fully connected layers:** Generate predictions
 
 ---
+
+## Use Cases:
+
+<img src="images/machine_learning.png" width=750>
+
+---
+
+## Algorithms
+
+<img src="images/algorithms.png" width=750>
 
 ## 💻 Practical Implementations
 
