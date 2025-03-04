@@ -12,7 +12,7 @@
 ### Resources
 - Company journals
 - Conferences
-- [arxiv](https://arxiv.org/)
+- [arxiv](https://arxiv.org/) (Cornell Archive)
 - Blogs
 
 ### Defense
@@ -20,5 +20,3 @@
 - Do not reveal training procedures or model architectures
 
 <hr>
-
-
